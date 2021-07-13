@@ -74,6 +74,9 @@ background-color: rgb(85, 170, 255);</string>
      <string notr="true">background-color: qlineargradient(spread:pad, x1:0.517, y1:0, x2:0.517, y2:1, stop:0 rgba(124, 233, 255, 255), stop:1 rgba(132, 207, 138, 255));
 </string>
     </property>
+    <property name="showGrid">
+     <bool>false</bool>
+    </property>
     <column>
      <property name="text">
       <string>ID</string>
@@ -86,7 +89,7 @@ background-color: rgb(85, 170, 255);</string>
     </column>
     <column>
      <property name="text">
-      <string>Produto</string>
+      <string>preço</string>
      </property>
     </column>
     <column>
@@ -118,10 +121,59 @@ background-color: rgb(85, 170, 255);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 0, 0);</string>
+     <string notr="true">background-color: rgb(85, 0, 255);</string>
     </property>
     <property name="text">
      <string>PDF</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>530</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <italic>false</italic>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>EXCLUIR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>530</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <italic>false</italic>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 0, 0);
+background-color: rgb(255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>EDITAR</string>
     </property>
    </widget>
   </widget>
